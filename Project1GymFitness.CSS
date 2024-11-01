@@ -1,0 +1,102 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image:url('pexels-leon-ardho-1552242.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+
+}
+.left div{
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    line-height: 0px;
+    margin: -22px;
+    padding: 0px;
+    font-size: 20px;
+}
+.left img{
+    width: 150px;
+    filter: invert(100%);
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: -25px;
+}
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+}
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    margin: 18px auto;
+    width: 35%;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 10px;
+}
+.navbar li a.active:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Trirong", serif;
+}
+.btn:hover{
+    color: grey;
+}
+.container{
+    border: 2px solid white;
+    margin: 100px 30px;
+    padding: 7px 20px;
+    width: 33%;
+    border-radius: 50px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+
+}
+.container button{
+    background-color: rgb(41, 53, 55);
+}
+.container button:hover{
+    background-color: rgb(50, 42, 42);
+    color: grey;
+}
+.form input{
+    margin: -7px auto;
+    width: 300px;
+    padding:6px 4px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    font-size: 15px;
+
+}
